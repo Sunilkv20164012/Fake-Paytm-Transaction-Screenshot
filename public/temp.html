@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script  src="/file-saver/dist/FileSaver.min.js"></script>
+
+    <div>
+        <div>
+            <form>
+                <input type="text" id="name" placeholder="name"/>
+                <input type="number" step="0.1" id="amount" placeholder="amount"/>
+                <button  onclick="screenshotfun()">screenshot</button>
+                <button  onclick="passbookfun()">passbook</button>
+            </form>
+        </div>
+        
+        <div>
+            <img id="ss" src="/images/count.png" crossorigin="anonymous"/>
+            <canvas id="screenshot" />
+        </div>
+        <div>
+            <img id="pt" src="/images/passtop.png" crossorigin="anonymous"/>
+            <canvas id="passtop" />
+        </div>
+        <div>
+            <img id="pb" src="/images/passbook.png" crossorigin="anonymous"/>
+            <canvas id="passbook" />
+        </div> 
+    </div>
+    <!-- <script src="/socket.io/socket.io.js"></script> -->
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
+
+
+
+

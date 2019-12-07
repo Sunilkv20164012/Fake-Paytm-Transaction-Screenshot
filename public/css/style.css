@@ -1,0 +1,9 @@
+body{
+    background-image: url("whitened.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    display: flex;
+    align-items: center;
+}
