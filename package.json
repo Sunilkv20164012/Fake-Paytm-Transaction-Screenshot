@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "async": "^3.1.0",
+    "async": "^3.2.2",
     "canvas-to-image": "^2.1.0",
     "express": "^4.17.1",
     "file-saver": "^2.0.2"
