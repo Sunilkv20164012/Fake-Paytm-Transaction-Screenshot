@@ -11,7 +11,7 @@
   "dependencies": {
     "async": "^3.1.0",
     "canvas-to-image": "^2.1.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "file-saver": "^2.0.2"
   }
 }
